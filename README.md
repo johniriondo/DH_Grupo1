@@ -13,3 +13,4 @@ Sitios de referencia:
 - https://es.fiverr.com/ por los clientes a los que apuntan.
 - https://www.mercadolibre.com/ por los servicios que ofrecen.
 - https://www.google.com/ por las funcionalidades implementadas.
+- https://nextdoor.com/ por ser un sitio similar
