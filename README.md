@@ -6,7 +6,7 @@ El sitio web se encargará de ser para sus usuarios una plataforma intuitiva en 
 Integrantes del equipo:
 - Barosi Enzo. 26 años. CABA, Arg.
 - Iriondo John. 48 años. Punta del Este, Uru
-- Martinez Tanoira Felipe. 20 años. CABA, Arg.
+- Martinez Tanoira Felipe. 20 años. GBA, Arg.
 - Ortega Alexia. 18 años. Bariloche, Arg.
 
 Sitios de referencia:
