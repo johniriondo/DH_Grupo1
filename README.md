@@ -2,7 +2,8 @@
 ## Trabajo integrador Digital House 2022 / Grupo 1
 
 El sitio web se encargará de ser para sus usuarios una plataforma intuitiva en la cual puedan ofrecer y contratar servicios de manera sencilla y segura. Está dirigido a personas de cualquier género, mayores de edad y clase social indistinta.
- Permite el comercio informal y apunta a fomentar el espíritu colaborativo entre vecinos dentro de un radio adaptable el cual se puede ir ampliando según necesidad.
+
+Permite el comercio informal y apunta a fomentar el espíritu colaborativo entre vecinos dentro de un radio adaptable el cual se puede ir ampliando según necesidad.
 
 Cada usuario puede ser cliente y proveedor. Al momento de registrarse, detalla los rubros en los que puede ayudar al vecino (por ejemplo: plomería, costura, clases de guitarra) y a través de un circulo (por defecto “una cuadra”) muestra su ubicación y alcance. 
 
