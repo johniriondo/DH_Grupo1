@@ -21,3 +21,6 @@ Sitios de referencia:
 - https://www.google.com/ por las funcionalidades implementadas.
 - https://www.upwork.com/ por las funcionalidades implementadas.
 - https://www.nextdoor.com/ por ser un sitio similar.
+
+Trello:
+- https://trello.com/b/Po8ffVyG/grupo-1
