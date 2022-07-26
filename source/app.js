@@ -12,11 +12,11 @@ server.use(statics(join(__dirname, "../public")));
 server.use(require("./routes/products.routes.js"));
 
 server.get("/", (req, res) => {
-  return res.sendFile(path.join(__dirname, "/views/index.html"));
+  return res.sendFile(join(__dirname, "/views/index.html"));
 });
 server.get("/register", (req, res) => {
-  return res.sendFile(path.join(__dirname, "/views/register.html"));
+  return res.sendFile(join(__dirname, "/views/register.html"));
 });
 server.get("/login", (req, res) => {
-  return res.sendFile(path.join(__dirname, "/views/login.html"));
+  return res.sendFile(join(__dirname, "/views/login.html"));
 });
