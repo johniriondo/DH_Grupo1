@@ -1,0 +1,67 @@
+@import url(search-bar.css);
+
+header {
+  background-color: #a7e441;
+  color: #4a631d;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.top-bar {
+  text-align: center;
+}
+
+.logo-a {
+  text-align: center;
+  margin-top: auto;
+}
+
+.logo {
+  width: 90%;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.nav-768 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .top-bar {
+    padding: 0 1px 10px 1px;
+  }
+
+  .nav-768 {
+    display: inline;
+    margin-bottom: 15px;
+  }
+
+  .nav-element {
+    color: #4a631d;
+    text-decoration: none;
+    padding: 1%;
+  }
+
+  .first-nav {
+    display: inline;
+  }
+
+  .second-nav {
+    display: inline;
+  }
+}
+
+@media (min-width: 1280px) {
+  .top-bar {
+    text-align: left;
+    padding: 0 10px 10px 10px;
+  }
+
+  .first-nav {
+    padding-left: 15%;
+  }
+
+  .second-nav {
+    padding-left: 15%;
+  }
+}
