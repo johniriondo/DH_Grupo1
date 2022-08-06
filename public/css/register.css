@@ -2,3 +2,95 @@
 @import url('header.css');
 @import url('register-main.css');
 @import url('footer.css');
+
+
+main{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 175px;
+    width: 100%;
+    background-color: #b1f046;  
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.create-form{
+    padding: 20px 15px;
+    border-color: blue;
+    border-style: solid;
+    
+}
+
+
+
+.control-formulario{
+    margin-bottom:15px;
+    border-color: rgb(255, 0, 25);
+    border-style: solid;
+    
+    
+}
+
+
+.control{
+    width: 100%;
+    padding: 8px;
+    border-color: rgb(200, 255, 0);
+    border-style: solid;
+}
+
+
+
+.btn{
+    background-color: #4a631d;
+    border: none;
+    font-size: 20px;
+    color:white;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+
+
+@media(min-width: 768px){
+   
+    main{
+        width: 100%;
+        margin-top: 110px;
+        display: flex;
+        justify-content: space-around;
+         
+        
+    }
+
+    .control{
+        width: 100%;
+               
+    }
+    .create-form{
+        align-items: center;
+        
+    }
+
+}
+
+@media (min-width: 1280px){
+
+    .control{
+        width: 100%;
+       
+    }
+
+
+    main{
+        width: 100%;
+        margin-top: 170px;
+        
+    }
+
+}

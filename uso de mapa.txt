@@ -1,0 +1,6 @@
+https://mappinggis.com/2012/05/como-insertar-un-mapa-de-google-maps-en-tu-web/
+
+https://www.ionos.es/digitalguide/paginas-web/creacion-de-paginas-web/integrar-google-maps-con-api-e-iframe/
+
+https://developers.google.com/maps/documentation/api-picker?hl=es
+https://developers.google.com/maps/documentation/javascript?hl=es
