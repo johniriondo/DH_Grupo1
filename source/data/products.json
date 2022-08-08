@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Clases de guitarra",
+        "price": 100,
+        "category": "Clases",
+        "sku": "1"
+    },
+    {
+        "name": "Clases de tango",
+        "price": 200,
+        "category":"Clases",
+        "sku": "2"
+    },
+    {
+        "name": "Arreglo pantalones",
+        "price": 300,
+        "category":"Costura",
+        "sku": "3"
+    }
+]

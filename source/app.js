@@ -1,10 +1,13 @@
 const express = require("express");
 const server = express();
 const { port, start } = require("./modules/server");
-
-server.listen(port, start());
-
 const { join } = require("path");
+server.listen(port, start()); 
+server.set('views', join(__dirname,'./views')); //le decimos que de esta carpeta vamos a sacarf las vistas.
+server.set('view engine', 'ejs'); //le decimos que motor de plantillas vamos a usar.
+
+
+
 const statics = require("./modules/static");
 
 server.use(statics(join(__dirname, "../public")));

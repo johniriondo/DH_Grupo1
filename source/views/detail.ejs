@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <%- include('./partials/head.ejs')%>
+   <link rel="stylesheet" href="/css/detail.css">
+</head>
+
+<body>
+   <header>
+
+   </header>
+
+   <main>
+      <% if (product) { %>
+            <article>
+                <h2>
+                    <%= product.name %> <spam>$<%= product.price %></spam>
+                </h2>
+                <nav>
+                    <a href="/productos/<%= product.category %>">
+                        <%= product.category %>
+                    </a>
+                </nav>
+            </article>>
+        <% } else { %>
+            <h2>
+                No se encontro producto <a href="/productos">Volver</a>
+            </h2>
+        <% } %>
+   </main>
+
+   <footer>
+
+   </footer>
+</body>
+
+</html>
