@@ -1,31 +1,36 @@
 const express = require("express");
+const { join } = require("path");
+const methodOverride = require("method-override");
 const server = express();
 const { port, start } = require("./modules/server");
-const { join } = require("path");
-server.listen(port, start()); 
-server.set('views', join(__dirname,'./views')); //le decimos que de esta carpeta vamos a sacarf las vistas.
-server.set('view engine', 'ejs'); //le decimos que motor de plantillas vamos a usar.
+server.listen(port, start());
 
-
+server.set("views", join(__dirname, "./views"));
+server.set("view engine", "ejs");
 
 const statics = require("./modules/static");
-
 server.use(statics(join(__dirname, "../public")));
 
-server.use(require("./routes/products.routes.js"));
+server.use(express.urlencoded({ extended: true }));
+
+server.use(methodOverride("m"));
+
+server.use(require("./routes/products.routes"));
+
+// ¿¿¿ ???
 
 server.get("/", (req, res) => {
-  return res.sendFile(join(__dirname, "/views/index.html"));
+  return res.render(join(__dirname, "/views/index.ejs"));
 });
 server.get("/productCart", (req, res) => {
-  return res.sendFile(join(__dirname, "/views/productCart.html"));
+  return res.render(join(__dirname, "/views/productCart.ejs"));
 });
 server.get("/productDetail", (req, res) => {
-  return res.sendFile(join(__dirname, "/views/productDetail.html"));
+  return res.render(join(__dirname, "/views/productDetail.ejs"));
 });
 server.get("/register", (req, res) => {
-  return res.sendFile(join(__dirname, "/views/register.html"));
+  return res.render(join(__dirname, "/views/register.ejs"));
 });
 server.get("/login", (req, res) => {
-  return res.sendFile(join(__dirname, "/views/login.html"));
+  return res.render(join(__dirname, "/views/login.ejs"));
 });

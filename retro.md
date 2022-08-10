@@ -23,3 +23,5 @@ Continuar haciendo: Definir tareas y plazos de realización.
 Hacer menos: Dejar para último momento.
 
 Dejar de hacer: Postergar.
+
+**********************************************************

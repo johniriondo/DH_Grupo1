@@ -1,20 +1,34 @@
 [
-    {
-        "name": "Clases de guitarra",
-        "price": 100,
-        "category": "Clases",
-        "sku": "1"
-    },
-    {
-        "name": "Clases de tango",
-        "price": 200,
-        "category":"Clases",
-        "sku": "2"
-    },
-    {
-        "name": "Arreglo pantalones",
-        "price": 300,
-        "category":"Costura",
-        "sku": "3"
-    }
+  {
+    "service": "Clases de guitarra",
+    "price": 1500,
+    "detail": "Lorem ipsum",
+    "location": "Palermo",
+    "availability": "Lun a Vie de 08:00hs a 18:00hs",
+    "category": "Educación",
+    "home-service": "Sí",
+    "cost": "5%",
+    "sku": 1
+  },
+  {
+    "service": "Plomería",
+    "price": 1000,
+    "detail": "Lorem ipsum",
+    "location": "Caballito",
+    "availability": "Lun a Vie de 08:00hs a 12:00hs",
+    "category": "Reparación",
+    "home-service": "Sí",
+    "cost": "5%",
+    "sku": 2
+  },
+  {
+    "service": "Arreglo de PC",
+    "price": 1500,
+    "detail": "Lorem ipsum",
+    "location": "Recoleta",
+    "availability": "Lun a Vie de 10:00hs a 16:00hs",
+    "home-service": "No",
+    "cost": 0,
+    "sku": 3
+  }
 ]
