@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <%- include('./partials/head.ejs')%>
+</head>
+
+<body>
+   <nav>
+      <a href="/productos/"> Volver</a>
+   </nav>
+   <form action="/productos/guardar" method="post">
+
+      <fieldset>
+         <legend>Servicio</legend>
+         <input type="text" name="service" id="service">
+      </fieldset>
+      <fieldset>
+         <legend>Precio</legend>
+         <input type="text" name="price" id="price">
+      </fieldset>
+      <fieldset>
+         <legend>Detalle</legend>
+         <input type="text" name="detail" id="detail">
+      </fieldset>
+      <fieldset>
+         <legend>Ubicación</legend>
+         <input type="text" name="location" id="location">
+      </fieldset>
+      <fieldset>
+         <legend>Disponibilidad</legend>
+         <input type="text" name="availability" id="availability">
+      </fieldset>
+      <fieldset>
+         <legend>Categoría</legend>
+         <input type="radio" name="category" id="category-repair" value="repair">
+         <label for="category">Reparación</label>
+         <input type="radio" name="category" id="category-education" value="education">
+         <label for="category">Educación</label>
+         <input type="radio" name="category" id="category-other" value="other">
+         <label for="category">Otro tipo</label>
+      </fieldset>
+      <fieldset>
+         <legend>A domicilio</legend>
+         <input type="radio" name="home service" id="home-service-yes" value="yes">
+         <label for="home-service">Sí</label>
+         <input type="radio" name="home service" id="home-service-no" value="no">
+         <label for="home-service">No</label>
+      </fieldset>
+      <fieldset>
+         <legend>Costo</legend>
+         <input type="text" name="cost" id="cost">
+      </fieldset>
+
+      <button type="submit"> Guardar</button>
+   </form>
+</body>
+
+</html>

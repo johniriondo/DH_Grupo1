@@ -17,8 +17,8 @@
 }
 
 .header a {
-    color:white ;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .logo-nav-container {
@@ -29,9 +29,8 @@
 }
 
 .logo {
-    letter-spacing: 5px;
-    font-size: 1.4em;
-
+  letter-spacing: 5px;
+  font-size: 1.4em;
 }
 
 .menu-icon {
@@ -45,8 +44,7 @@
 }
 
 .navigation ul li {
-    display: inline-block;
-
+  display: inline-block;
 }
 
 .navigation ul li a {

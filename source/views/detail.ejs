@@ -3,7 +3,7 @@
 
 <head>
    <%- include('./partials/head.ejs')%>
-   <link rel="stylesheet" href="/css/detail.css">
+      <link rel="stylesheet" href="/css/detail.css">
 </head>
 
 <body>
@@ -13,21 +13,24 @@
 
    <main>
       <% if (product) { %>
-            <article>
-                <h2>
-                    <%= product.name %> <spam>$<%= product.price %></spam>
-                </h2>
-                <nav>
-                    <a href="/productos/<%= product.category %>">
-                        <%= product.category %>
-                    </a>
-                </nav>
-            </article>>
-        <% } else { %>
+         <article>
             <h2>
-                No se encontro producto <a href="/productos">Volver</a>
+               <%= product.service %>
+                  <spam>$<%= product.price %>
+                  </spam>
             </h2>
-        <% } %>
+            <nav>
+               <a href="/productos/<%= product.category %>">
+                  <%= product.category %>
+               </a>
+               <a href="/productos/editar/<%= product.sku %>"> Editar</a>
+            </nav>
+         </article>>
+         <% } else { %>
+            <h2>
+               No se encontro producto <a href="/productos">Volver</a>
+            </h2>
+            <% } %>
    </main>
 
    <footer>
