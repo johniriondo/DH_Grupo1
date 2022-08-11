@@ -13,6 +13,11 @@
 
   }
 
+  .header {
+    font-size: 2 rem;
+    line-height: 1.6 em;
+  }
+
   .main{
     padding-top: 6rem;
   }
